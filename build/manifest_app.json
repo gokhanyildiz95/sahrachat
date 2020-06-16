@@ -1,0 +1,16 @@
+{
+  "short_name": "My Extension",
+  "name": "My Extension",
+  "version": "1.0",
+  "manifest_version": 2,
+   "app": {
+      "background": {
+         "scripts": [ "app/background.js" ]
+      }
+   },
+  "permissions": [ 
+     "storage", "notifications", "audioCapture",
+     "*://*.mobikob.com/*"
+   ]
+}
+

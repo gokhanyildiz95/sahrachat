@@ -1,0 +1,12 @@
+.matchedMessagesRouter {
+align-items: center;
+background-color: rgba(255, 255, 255, .95);
+border-bottom: 1px solid rgba(0, 0, 0, .10);
+display: flex;
+height: 30px;
+left: 0;
+padding: 8px;
+right: 0;
+z-index: 10;
+
+}

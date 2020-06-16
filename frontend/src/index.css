@@ -1,0 +1,36 @@
+@import '~antd/dist/antd.css';
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#my-extension-root{
+  width: 400px;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  z-index: 2147483647;
+  background-color: white;
+  box-shadow: 0px 0px 5px #0000009e;
+}
+
+#my-extension-root iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.connectError {
+  background-color: #c31432;
+  color: white;
+  
+}
+
+.matchedMessage {
+  background-color: #fc0 !important;
+    box-shadow: 2px 0 #ffcc00, -2px 0 #fc0 !important;
+}

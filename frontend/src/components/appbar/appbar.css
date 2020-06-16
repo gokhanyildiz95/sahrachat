@@ -1,0 +1,141 @@
+  .app-bar {
+    background: #33344a;
+    transition: all .22s;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  .app-bar nav {
+    flex: 1;
+    background: url(https://statics.teams.microsoft.com/hashedassets/AppBar-Texture-Transparent-7575da20.png) repeat-y;
+}
+.app-bar ul {
+    list-style: none;
+    margin: 0;
+    height: calc(100vh - 4.8rem);
+    padding: 0;
+}
+.app-bar-width {
+    width: 6.8rem;
+}
+.flex-fill {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    min-height: 0;
+    min-width: 0;
+}
+.app-bar.app-bar-offset .app-bar-link {
+    transition: opacity .25s;
+}
+.app-bar .app-bar-link {
+    display: block;
+    font-size: 1.2rem;
+    height: 5.6rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.app-bar .app-bar-link:not(.app-bar-selected) {
+    background: 0;
+}
+.app-bar ul button {
+    background: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+}
+button {
+    padding: .1rem .4rem;
+}
+
+.app-bar .app-bar-link {
+    display: block;
+    font-size: 1.2rem;
+    height: 5.6rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.app-bar-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    font-size: 1rem;
+    text-rendering: optimizeLegibility;
+    margin-top: -1.3rem;
+    text-decoration: none;
+    opacity: .63;
+}
+
+button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-image: initial;
+}
+.app-bar ul {
+    list-style: none;
+    margin: 0;
+    height: calc(100vh - 4.8rem);
+    padding: 0;
+}
+
+.app-bar .spacer {
+    flex: 1;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.app-bar {
+    background: #33344a;
+    transition: all .22s;
+    user-select: none;
+}
+.app-bar .app-bar-link .app-svg {
+    height: 4rem;
+    margin-top: -.8rem;
+    opacity: .9;
+    width: 4rem;
+}
+.app-bar .app-bar-link {
+    display: block;
+    font-size: 1.2rem;
+    height: 5.6rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+.app-bar button:hover.app-bar-link, .app-bar button:hover.discover-apps-button, body.acc-keyboard-mode .app-bar button:focus.app-bar-link, body.acc-keyboard-mode .app-bar button:focus.discover-apps-button {
+    color: #fff;
+}
+.app-bar .app-bar-link .app-svg {
+    height: 4rem;
+    margin-top: -.8rem;
+    opacity: .9;
+    width: 4rem;
+}
+.app-bar .app-bar-link .app-svg.icons-mention-small-bold .icons-default-fill, .app-bar .app-bar-link:not(.app-bar-selected) .app-svg .icons-default-fill, .app-bar .app-bar-selected .app-svg .icons-default-fill, .app-bar .app-bar-selected .app-svg.icons-mention-small-bold .icons-default-fill, .app-bar button.bottom-position.show-highlight:active .app-svg .icons-default-fill, .app-bar button.bottom-position.show-highlight:hover .app-svg .icons-default-fill {
+    fill: #fff;
+}

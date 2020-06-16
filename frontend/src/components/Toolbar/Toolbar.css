@@ -1,0 +1,52 @@
+/* SOLO CHANGE */
+.toolbar {
+  display: flex;
+  align-items: center;
+
+  font-weight: 500;
+  background-color: white;
+
+  position: sticky;
+  top: 0px;
+  z-index: 300;
+  height: 62px;
+  max-height: 62px;
+  align-items: center;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .10);
+  display: flex;
+  height: 55px;
+  justify-content: space-between;
+  padding-left: 16px;
+  background-color: rgba(255, 255, 255, 255);
+  backdrop-filter: blur(20px);
+}
+
+
+.toolbar-title {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.left-items, .right-items {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+}
+
+.right-items {
+  flex-direction: row-reverse;
+}
+
+.left-items .toolbar-button {
+  margin-right: 20px;
+}
+
+.right-items .toolbar-button {
+  margin-left: 20px;
+}
+
+.left-items .toolbar-button:last-child,
+.right-items .toolbar-button:last-child {
+  margin: 0;
+}

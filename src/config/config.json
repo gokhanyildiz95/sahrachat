@@ -1,0 +1,29 @@
+{
+  "databases": {
+      "mobichat": {
+        "username": "postgres",
+        "password": "ayk542msf572shr",
+        "database": "mobichat",
+        "host": "212.58.23.116",
+        "dialect": "postgres",
+        "operatorsAliases": false
+      },
+     "mobikob": {
+        "username": "postgres",
+        "password": "ayk542msf572shr",
+        "database": "mobikob",
+        "host": "212.58.23.116",
+        "dialect": "postgres",
+        "operatorsAliases": false
+     },
+     "management": {
+        "username": "postgres",
+        "password": "ayk542msf572shr",
+        "database": "management",
+        "host": "212.58.23.116",
+        "dialect": "postgres",
+        "operatorsAliases": false
+     }
+  }
+}
+

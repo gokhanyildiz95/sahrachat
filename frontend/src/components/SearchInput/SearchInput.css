@@ -1,0 +1,35 @@
+.usertimes {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    min-height: 20px;
+    position: relative;
+    color: inherit;
+    flex: 0 0 20px;
+}
+
+.badgeStack {
+    margin: 2;
+}
+
+.newChat .modal-body{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.compose-input {
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 16px;
+}
+
+.userSearchBox {
+    border-bottom: 1px solid #dee2e6;
+}
+.userList {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #dee2e6;
+}

@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "author": "UMUT KAHRIMAN",
+  "version": "1.0.0",
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "browser_action": {
+    "default_popup": "index.html"
+  }
+}

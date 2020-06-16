@@ -1,0 +1,93 @@
+
+.mini {
+    height: 6%;
+    transition-property: all;
+	transition-duration: .3s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+
+}
+.full {
+    height: 50%;
+    transition-property: all;
+	transition-duration: .7s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+
+}
+
+/*
+.mobichat > div{
+    visibility: visible;
+    width: 370px;
+    // height: calc(100% - 220px); 
+    max-height: 590px;
+    position: fixed;
+    right: 320px;
+    bottom: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 7px 40px 2px hsla(210,1%,58%,.3);
+    box-shadow: 0 7px 40px 2px hsla(210,1%,58%,.3);
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.messenger > div.sidebar {
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+*/
+
+.messenger {
+  display: grid;
+  width: 100%;
+  height: 100vh;
+  background: #eeeef1;
+
+  grid-template-columns: 350px auto;
+  grid-template-rows: 60px auto 60px;
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+}
+
+.scrollable {
+  position: relative;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.sidebar {
+  background: white;
+  grid-row-start: 1;
+  grid-row-end: span 3;
+}
+
+.content {
+  background: white;
+  grid-row-start: 1;
+  /* grid-row-end: span 3; */
+  grid-row-end: span 2;
+}
+
+.footer {
+  grid-column-start: 2;
+  background: white;
+}
+
+
