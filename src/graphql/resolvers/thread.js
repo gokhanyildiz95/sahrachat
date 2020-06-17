@@ -80,7 +80,8 @@ export default {
                 convoIdsHide.push(thread._id)
                 shouldShow = false;
               }
-
+              //pasif kullanıcılar gizlenip gizlenmediği test edilecek işe yaramazsa sil (1)
+              convoIdsHide.push(thread._id)
               return {
                 dname,
                 tenant,
