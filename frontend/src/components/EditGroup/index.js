@@ -99,7 +99,6 @@ const EditGroup = ({ isOwner, data }) => {
                     description: '',
                     placement: 'bottomRight',
                 });
-
             });
     };
     return (

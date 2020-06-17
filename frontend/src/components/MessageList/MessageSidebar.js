@@ -97,6 +97,7 @@ const MessageSidebar = ({ userId, thread, handleUserThreadModal }) => {
             refetchQueries: [{ query: threadMessages, variables: { threadId: thread._id } }],
         })
         setIsDeleteModalOpen(false);
+        console.log(memberId)
     }
 
     const showResult = (data) => {

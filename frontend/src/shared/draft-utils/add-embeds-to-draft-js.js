@@ -14,7 +14,7 @@ const THREAD_URLS = /(?:(?:https?:\/\/)?|\B)(?:spectrum\.chat|localhost:3000)\/.
 
 const REGEXPS = {
   figma: FIGMA_URLS,
-  youtube: YOUTUBE_URLS,
+  youtube: YOUTUBE_URLS ,
   vimeo: VIMEO_URLS,
   iframe: IFRAME_TAG,
   framer: FRAMER_URLS,
@@ -126,7 +126,8 @@ export const getEmbedsFromText = (text: string): Array<EmbedData> => {
     embeds.push({
       type: 'figma',
       url: `https://www.figma.com/embed?embed_host=spectrum&url=${url}`,
-      aspectRatio: '56.25%', // 16:9 aspect ratio
+      width: 400,
+      height: 400,
     });
   });
 
@@ -134,7 +135,8 @@ export const getEmbedsFromText = (text: string): Array<EmbedData> => {
     embeds.push({
       type: 'youtube',
       url: `https://www.youtube.com/embed/${id}`,
-      aspectRatio: '56.25%', // 16:9 aspect ratio
+      width: 400,
+      height: 400,
     });
   });
 
@@ -142,7 +144,8 @@ export const getEmbedsFromText = (text: string): Array<EmbedData> => {
     embeds.push({
       type: 'vimeo',
       url: `https://player.vimeo.com/video/${id}`,
-      aspectRatio: '56.25%', // 16:9 aspect ratio
+      width: 600,
+      height: 200,
     });
   });
 

@@ -33,7 +33,7 @@ const GroupControl = ({ isGroup, toggleGroup, groupName, handleNameInput, isPriv
                 (isGroup) &&
                 <>
                     <Form.Label>Grup İsmi</Form.Label>
-                    <Form.Control type="text" onChange={(e) => { handleNameInput(e) }} placeholder="Grubunuza isim verin!" />
+                    <Form.Control type="text" onChange={(e) => { handleNameInput(e)}} placeholder="Grubunuza isim verin!" />
                     <div style={{paddingTop: '14px'}}>
                         <Checkbox checked={isPrivate} onChange={togglePrivate}>
                             Gizli Grup Oluştur
